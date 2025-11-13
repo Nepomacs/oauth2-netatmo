@@ -20,7 +20,7 @@ class Netatmo extends AbstractProvider
      */
     public function getBaseAuthorizationUrl()
     {
-        return 'https://api.netatmo.net/oauth2/authorize';
+        return 'https://api.netatmo.com/oauth2/authorize';
     }
 
     /**
@@ -50,7 +50,7 @@ class Netatmo extends AbstractProvider
      */
     public function getBaseAccessTokenUrl(array $params)
     {
-        return 'https://api.netatmo.net/oauth2/token';
+        return 'https://api.netatmo.com/oauth2/token';
     }
 
     /**
