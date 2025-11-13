@@ -53,7 +53,7 @@ class NetatmoTest extends TestCase
         $uri = parse_url($url);
 
         // Run assertion(s).
-        $this->assertEquals('api.netatmo.net', $uri['host']);
+        $this->assertEquals('api.netatmo.com', $uri['host']);
         $this->assertEquals('/oauth2/authorize', $uri['path']);
     }
 
@@ -123,7 +123,7 @@ class NetatmoTest extends TestCase
         $uri = parse_url($url);
 
         // Run assertion(s).
-        $this->assertEquals('api.netatmo.net', $uri['host']);
+        $this->assertEquals('api.netatmo.com', $uri['host']);
         $this->assertEquals('/oauth2/token', $uri['path']);
     }
 
